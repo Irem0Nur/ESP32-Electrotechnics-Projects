@@ -1,14 +1,24 @@
 # ESP32 Electrotechnics Experiments
 
-This project contains several electrotechnics experiments implemented using the ESP32 microcontroller.
+This repository contains several electrotechnics experiments implemented using the **ESP32 microcontroller**.
 
-## Features
+The project focuses on measuring analog signals, analyzing circuit behavior, and visualizing signal waveforms using ESP32 ADC.
 
-• Analog voltage measurement using ESP32 ADC  
-• Multi-channel signal acquisition  
-• Circuit voltage drop analysis  
-• Current and power calculation in resistor networks  
-• Signal visualization using Arduino Serial Plotter  
+---
+
+## Project Overview
+
+The main objective of this project is to explore how analog signals can be measured and analyzed using ESP32.
+
+Experiments included in this repository:
+
+- Analog voltage measurement using ESP32 ADC
+- Multi-channel signal acquisition
+- Voltage drop analysis in analog circuits
+- Signal visualization using Arduino Serial Plotter
+- Comparison between simulation and real measurements
+
+---
 
 ## Hardware
 
@@ -18,12 +28,43 @@ The experiments were implemented using:
 - Breadboard
 - Resistors
 - Potentiometer
-- LM358 operational amplifier
+- Analog circuit components
 
-## Circuit Design
+---
 
-The analog circuits were first simulated and then implemented on breadboard.
+## Code
 
-## Results
+The firmware was developed using **Arduino IDE**.
 
-Signals captured from the ESP32 ADC were visualized using Arduino Serial Plotter.
+The code performs:
+- Analog signal measurement using ESP32 ADC
+- Multi-channel data acquisition
+- Voltage analysis
+- Signal visualization using Serial Plotter
+
+Example code files included:
+adc2.ino
+sheet_1.2.ino
+sheet_1.3.ino
+sheet_2.1.ino
+sheet_2.2.ino
+sheet_2.3.ino
+sheet4.ino
+deney1.ino
+
+
+---
+
+## Technologies Used
+
+- ESP32
+- Arduino IDE
+- Analog Circuit Design
+- Signal Processing
+- Embedded Systems
+
+---
+
+## Author
+
+Developed by **IremOnur**
